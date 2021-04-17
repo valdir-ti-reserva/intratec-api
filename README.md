@@ -1,0 +1,5 @@
+- Padronização do projeto
+  -- Commits seguindo o padrão do https://www.conventionalcommits.org/en/v1.0.0/
+  -- lib git-commit-msg-linter para a padronização dos commits
+  -- Padronizando o código de acordo com Javascript Standard https://standardjs.com/
+  -- Lib husky para realizar um hook antes de realizar um commit
