@@ -5,12 +5,14 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon app.js",
-    "start": "node app"
+    "start": "node app",
+    "test": "jest"
   },
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.22",
     "@types/node": "^14.14.41",
     "@typescript-eslint/eslint-plugin": "4",
     "eslint": "7",
@@ -20,8 +22,10 @@
     "eslint-plugin-promise": "4",
     "git-commit-msg-linter": "^3.1.0",
     "husky": "^6.0.0",
+    "jest": "^26.6.3",
     "lint-staged": "^10.5.4",
     "nodemon": "^2.0.7",
+    "ts-jest": "^26.5.5",
     "typescript": "^4.2.4"
   }
 }
