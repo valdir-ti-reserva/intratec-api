@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon app.js",
     "start": "node app",
-    "test": "jest"
+    "test": "jest",
+    "test:staged": "jest"
   },
   "dependencies": {
     "express": "^4.17.1"
@@ -26,6 +27,7 @@
     "lint-staged": "^10.5.4",
     "nodemon": "^2.0.7",
     "ts-jest": "^26.5.5",
+    "ts-node": "^9.1.1",
     "typescript": "^4.2.4"
   }
 }
