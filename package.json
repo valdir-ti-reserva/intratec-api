@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "nodemon app.js",
     "start": "node app",
-    "test": "jest",
-    "test:staged": "jest"
+    "test": "jest --passWithNoTests --watch",
+    "test:staged": "jest --passWithNoTests --watch"
   },
   "dependencies": {
     "express": "^4.17.1"
