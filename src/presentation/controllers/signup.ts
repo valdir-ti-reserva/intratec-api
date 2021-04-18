@@ -1,3 +1,4 @@
+import { HttpRequest, HttpResponse } from '@src/presentation/protocols/http';
 export class SignUpController {
   handle (httpRequest: any): any {
     if(!httpRequest.body.name) {
